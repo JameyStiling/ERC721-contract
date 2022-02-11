@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx hardhat test",
     "prettier": "prettier --write 'contracts/**/*.sol'",
-    "lint": "prettier --list-different 'contracts/**/*.sol'"
+    "lint": "prettier --list-different 'contracts/**/*.sol'",
+    "nft-deploy": "npx hardhat run scripts/deploy.js"
   },
   "keywords": [],
   "author": "",
